@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
 
     <title>Le Chocolat</title>
 
 </head>
 
 <body>
+    <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="./index.html"><img src="images/logo.png" height="40" width="54"></a>
@@ -43,6 +45,7 @@
         </div>
     </nav>
 
+    <!-- HEADER -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -58,7 +61,10 @@
         </div>
     </header>
 
+    <!-- MAIN CONTENT -->
     <div class="container">
+
+        <!-- BREADCRUMB -->
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -66,19 +72,65 @@
             </ol>
         </nav>
 
+        <!-- HEADER ROW -->
         <div class="row row-header">
             <div class="col-12">
                 <h3>Menu</h3>
                 <hr>
             </div>
-            <h3>Under heavy construction!!</h3>
         </div>
 
+        <!-- 1st ROW -->
+        <div class="row row-content justify-content-center">
+            <section class="menu-items">
+                <h2>Burgers</h2>
+                <p>Prepare to be delighted with 100% pure beef, melty cheese and fresh ingredients, all made to order.</p>
+                
+                <!-- MENU LIST -->
+                <ol class="menu-item-listing">
+                    <li>
+                        <span class="menu-item-name">Sonic® Cheeseburger</span>
+                        <img src="https://lh3.googleusercontent.com/GlXvLkghQncBfhlGBrZ3lQBOwuAK1fk-CEDOhRXRmrd2GneQky6i-I831rC648o8NhSgwcQhI1xo46j-ggXZ-Q=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name"><em>Super</em>Sonic® Double Cheeseburger</span>
+                        <img src="https://lh3.googleusercontent.com/iXpM7AyZ6xcHp1rQ9RRUBve5TItpFxqSKYVJjRfaRRnBTEfToAnhltrKNSRemg1SO8yL55e10_NsknLk1IKq=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name"><em>Super</em>Sonic® Bacon Double Cheeseburger</span>
+                        <img src="https://lh3.googleusercontent.com/Ele8gtDOd1tlQ4TebRJkf6XgpciDD2e57Jf5E3UwAzvfPs0kLhOXJLewZYsu1CFn9CPly0TLvrZUCqJnXMn0=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name">Sonic® Bacon Cheeseburger</span>
+                        <img src="https://lh3.googleusercontent.com/MXGR72JVHpz8XzGHFcsMRIBVYpdJuzaOoPqTz0yOb18ZwvztJyhGZQMtxKVeEXac_6WH5k73fZ39nqmlnNyb=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name">Jr. Burger</span>
+                        <img src="https://lh3.googleusercontent.com/i-vHb3CryeDkJrTydwmJFJ1M1HrFtjAGIDC5xI7wI7bkOqV_iV0Zpr6jtm-9Lmv6n1pgkMBhJHSb2Ef1XMxLEQ=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name">Jr. Double Cheeseburger</span>
+                        <img src="https://lh3.googleusercontent.com/rZffPhtsT38VMvV40KZNzgzGpiR8LVeqcRYDVHKYoWoz6vuKj_0X2nTcpUrqfbnVKSpsPOiR6eyos1el_2UB=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name">Jr. Deluxe Cheeseburger</span>
+                        <img src="https://lh3.googleusercontent.com/zEE3wNRoKGd8py4Jhod6HFaWf6iLjV3wtAjVZR-cC3pB0rRehlhBuKZOag8lL8af4XFAwEuSCl9kebbDpJibDg=s400" />
+                    </li>
+                    <li>
+                        <span class="menu-item-name">Bacon Cheeseburger <em>TOASTER</em>®</span>
+                        <img src="https://lh3.googleusercontent.com/87M6X6hiETZcuH7ViT87KncCMr7nnSOJH1djalKHDDfEAjUb2yBbSqBtofso_ecls1YClzOFaoAldam9Iskh_A=s400" />
+                    </li>
+                </ol>
+
+            </section>
+        </div>
     </div>
 
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
             <div class="row">
+
                 <div class="col-5 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -88,6 +140,7 @@
                         <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
+
                 <div class="col-6 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
@@ -99,6 +152,7 @@
                         <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
                     </address>
                 </div>
+
                 <div class="col-sm align-self-center">
                     <div style="text-align:center">
                         <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
@@ -115,12 +169,15 @@
                             <i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
+
             </div>
+
             <div class="row justify-content-center">
                 <div class="col-auto">
                     <p>&copy; Copyright 2018 Le Chocolat</p>
                 </div>
             </div>
+
         </div>
     </footer>
 
