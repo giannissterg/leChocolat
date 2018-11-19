@@ -55,6 +55,7 @@ tr:hover {
 .carousel {
     background:#914d15b0
 }
+
 .carousel-item {
   height: 300px;
 }
@@ -63,4 +64,10 @@ tr:hover {
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
 }
