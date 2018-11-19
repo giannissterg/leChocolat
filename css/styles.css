@@ -52,8 +52,8 @@ tr:hover {
     padding: 10px;
   }
 
-.carousel {
-    background:#914d15b0
+#mycarousel{
+    background:#6E3F19;
 }
 
 .carousel-item {
